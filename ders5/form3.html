@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="server.js" method="post">
+      <label for="meeting-time"> Bir randevu saati ve tarihi seciniz</label>
+
+      <input
+        type="datetime-local"
+        name="meeting-time"
+        id="meeting-time"
+        value="2023-12-06T19:42"
+        min="2023-12-06T19:42"
+        max="2023-12-10T19:42"
+      />
+    </form>
+  </body>
+</html>
